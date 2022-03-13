@@ -5,7 +5,8 @@
   "homepage": "https://ashjshaw.github.io",
   "scripts": {
     "dev": "vite",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },

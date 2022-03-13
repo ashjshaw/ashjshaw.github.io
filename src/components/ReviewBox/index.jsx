@@ -44,7 +44,7 @@ const reviews = [{
     stars: 5,
 },
   {
-    text: "Will you leave me along while I do my ironing",
+    text: "Will you leave me alone while I do my ironing",
     name: "- Warren Perkins.esq",
     stars: 3,
   },

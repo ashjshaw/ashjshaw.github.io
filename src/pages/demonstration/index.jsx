@@ -16,6 +16,15 @@ export default function Demonstration() {
       <CodeFlexBox show={show}>
       <RomanNumeralConverter/>
       <ToDoList/>
+      <div className="link-div">
+        <h1>Websites</h1>
+      <a href='https://codepen.io/ash-shaw/pen/MWELNZG' target='_blank'>Technical documentation page(Codepen)</a>
+      <br/>
+      <a href='https://codepen.io/ash-shaw/pen/MWEzEjW' target='_blank'>Survey form(Codepen)</a>
+      <br/>
+      <a href='https://codepen.io/ash-shaw/pen/ExwyPyJ' target='_blank'>Tribute page(Codepen)</a>
+      <br/>
+      </div>
       </CodeFlexBox>
     </div>
   );

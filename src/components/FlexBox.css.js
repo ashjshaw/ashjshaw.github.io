@@ -32,4 +32,20 @@ text-align: center;
 @media (max-width: 912px) {
     margin-left: 0;
   }
+
+a{
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+  font-size: 1.3rem;
+  :hover{
+    font-size: 1.35rem;
+  }
+}
+
+.link-div{
+  margin-top: 5vh;
+  line-height: 10vh;
+  background-color: rgba(0, 255, 255, 0.4);
+}
 `;

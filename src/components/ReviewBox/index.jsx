@@ -34,35 +34,30 @@ export default function ReviewBox() {
 }
 
 const reviews = [{
-    text: "Hands down my second favourite son",
-    name: "- My Mum (mother of two)",
-    stars: 5,
+    text: "Review Example 1",
+    name: "- Review 1",
+    stars: 1,
 },
 {
-    text: "Oooo he's a good lad",
-    name: "- Grandma Anne",
-    stars: 5,
+  text: "Review Example 2",
+  name: "- Review 2",
+  stars: 2,
 },
   {
-    text: "Will you leave me alone while I do my ironing",
-    name: "- Warren Perkins.esq",
+    text: "Review Example 3",
+    name: "- Review 3",
     stars: 3,
   },
   {
-    text: "This is who I meant would never give you up or let you down",
-    name: "- Rick Astley (No relation)",
-    stars: 5,
-},
-{
-    text: "Beer on the table,<br/> Ashley speaks using his hands,<br/> the beer falls",
-    name: "- Scouse Dan",
-    stars: 3,
-},
-{
-    text: "Designs better websites than me",
-    name: "- Conor Jones (Designed 0 Websites)",
+    text: "Review Example 4",
+    name: "- Review 4",
     stars: 4,
-}
+},
+{
+  text: "Review Example 5",
+  name: "- Review 5",
+  stars: 5,
+},
 ];
 const Review = ({ text, name, stars }) => {
   return (
